@@ -1,0 +1,110 @@
+body {
+background-color: black;
+background-image: url(https://i.pinimg.com/564x/be/b5/fc/beb5fccfade1e4b2af2d4c4fc16fee5e.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+}
+#mainContainer{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  font-family: chopsic;
+}
+
+
+#menu {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 140px;
+position: fixed;
+padding: 10px;
+ height: 20px;
+ width: 90%;
+ background-color: transparent;
+font-size: 30px;
+}
+
+.navButton{
+font-style: chopsic;
+    font-weight: 100px;
+    padding-bottom: 5px;
+    color: black;
+    text-shadow: 3px 2px white;
+  }
+
+.title {
+  font-size: 70px;
+
+}
+  #headerContainer {
+    text-align: center;
+
+}
+
+#header {
+  font-family: chopsic;
+  background-color: #a1351a;
+  border-width: 5px;
+  border-color: black;
+  border-style: inset;
+  color: black;
+  text-shadow: 1px 1px white;
+
+}
+
+#tagLine {
+    text-shadow: 1px 1px grey;
+    font-style: bold;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+#pictureGrid {
+  width: 100%;
+  height: auto;
+  align-self: start;
+  padding-left: 100px;
+  margin-top: 80px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row1 {
+width: 300px;
+height: 500px;
+margin: 15vmin 50px 0 40px;
+object-fit: cover;
+display: flex;
+justify-content: space-between;
+box-shadow: 20px 20px 20px red;
+border-style: hidden;
+border-width: 8px;}
+
+.row2 {
+  width: 350px;
+  height: 300px;
+  margin: 15vmin 50px 0 0px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 20px 20px 20px red;
+  border-style: hidden;
+  border-width: 10px;
+  border-color: black;
+}
+
+
+.row3 {
+width: 350px;
+  height: 400px;
+  margin: 20vmin 150px 0 35px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 80px 20px 40px red;
+  border-style: hidden;
+  border-width: 15px;
+  border-color: #404040;
+}

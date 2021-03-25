@@ -1,0 +1,107 @@
+body {
+background-color: black;
+background-image: url(https://i.pinimg.com/564x/1e/d3/ed/1ed3ed629beeedbb5fbcb9834865b44d.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+}
+#mainContainer{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  font-family: chopsic;
+}
+
+
+#menu {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 140px;
+position: fixed;
+padding: 10px;
+ height: 20px;
+ width: 90%;
+ background-color: transparent;
+font-size: 30px;
+}
+
+.navButton{
+font-style: chopsic;
+    font-weight: 100px;
+    padding-bottom: 5px;
+    color: black;
+    text-shadow: 3px 2px white;
+  }
+
+.title {
+  font-size: 70px;
+
+}
+  #headerContainer {
+    text-align: center;
+
+}
+
+#header {
+  font-family: chopsic;
+  background-color: grey;
+  border-width: 5px;
+  border-color: black;
+  border-style: inset;
+  color: black;
+  text-shadow: 1px 1px white;
+
+}
+
+#tagLine {
+    text-shadow: 1px 1px grey;
+    font-style: bold;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+#pictureGrid {
+  width: 100%;
+  height: auto;
+  align-self: start;
+  padding-left: 100px;
+  margin-top: 80px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row1 {
+width: 300px;
+height: 300px;
+margin: 10vmin 60px 0 10px;
+object-fit: cover;
+display: flex;
+justify-content: space-between;
+box-shadow: 30px 30px 30px black;
+border-style: hidden;
+border-width: 8px;}
+
+.row2 {
+  width: 300px;
+  height: 450px;
+  margin: 10vmin 60px 0 10px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 30px 30px 30px black;
+  border-style: hidden;}
+
+
+.row3 {
+  width: 300px;
+  height: 300px;
+  margin: 10vmin 60px 0 10px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 30px 30px 30px black;
+  border-style: hidden;
+  border-width: 8px;}
+
+}

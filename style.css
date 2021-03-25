@@ -1,0 +1,78 @@
+body {
+background-color: #ad36d1;
+background-image: url(https://i.pinimg.com/originals/25/54/84/25548453f764da109ac3908ea35aff88.gif);
+background-repeat: repeat;
+background-attachment: fixed;
+}
+#mainContainer{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  font-family: chopsic;
+}
+
+
+#menu {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top: 140px;
+position: fixed;
+padding: 10px;
+ height: 20px;
+ width: 90%;
+ background-color: transparent;
+font-size: 30px;
+}
+
+.navButton{
+font-style: chopsic;
+    font-weight: 100px;
+    padding-bottom: 5px;
+    color: black;
+    text-shadow: 3px 2px white;
+  }
+
+.title {
+  font-size: 70px;
+
+}
+  #headerContainer {
+    text-align: center;
+
+}
+
+#header {
+  font-family: chopsic;
+  background-color: #cc0aa8;
+  border-width: 5px;
+  border-color: black;
+  border-style: inset;
+  color: black;
+  text-shadow: 1px 1px white;
+
+}
+
+#tagLine {
+    text-shadow: 1px 1px grey;
+    font-style: bold;
+    font-weight: 200;
+    font-size: 15px;
+  }
+#welcome {
+  padding: 40px;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  font-family: chopsic;
+  border-width: 5px;
+  border-color: black;
+  border-style: inset;
+  margin: 180px;
+}
+
+mark {
+  background-color: #e0add7;
+  color: black;
+
+}
