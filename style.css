@@ -7,9 +7,15 @@ background-attachment: fixed;
 #mainContainer{
   margin: 0px 0px 0px 0px;
   padding: 0px;
+}
+@font-face {
   font-family: chopsic;
+  src: url(https://www.dafont.com/chopsic.font);
 }
 
+#myFont {
+  font-family: chopsic;
+}
 
 #menu {
 display: flex;
@@ -57,7 +63,7 @@ font-style: chopsic;
     text-shadow: 1px 1px grey;
     font-style: bold;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 20px;
   }
 #welcome {
   padding: 40px;
